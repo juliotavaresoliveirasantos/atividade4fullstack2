@@ -1,0 +1,28 @@
+{
+  "name": "pi-aulaaovivo",
+  "version": "1.0.0",
+  "description": "Aula ao vivo - Implementando um servidor web",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "aula-ao-vivo",
+    "ead",
+    "node",
+    "express"
+  ],
+  "author": "Julio",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.6.0",
+    "sequelize": "^6.37.3"
+  }
+}
